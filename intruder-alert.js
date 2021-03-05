@@ -7,7 +7,7 @@ const board = new five.Board({
 });
 
 const accountSid = 'ACaa5199ee6311b39782dd8f6ce3d16b8f';
-const authToken = '709ab54b4dbe6419ff9ca64157b00490';
+const authToken = '709ab54b4dbe6419ff9ca64157b00490'; // has been revoked so it's fine to expose
 const sender = '+15623784480';
 const recipient = '+12604024148';
 
