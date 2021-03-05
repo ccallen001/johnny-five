@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="#" />
+
+    <title>JFIK</title>
+  </head>
+  <body style="display: flex; margin: 0; height: 100vh; background-color: #555">
+    <button
+      style="
+        margin: auto;
+        padding: 10px 64px 12px;
+        background-color: #222;
+        font-size: 64px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+      "
+      onClick="rainbow()"
+    >
+      <span>🌈</span>
+    </button>
+
+    <script>
+      function rainbow() {
+        fetch('/rainbow', { method: 'POST' });
+      }
+    </script>
+  </body>
+</html>
